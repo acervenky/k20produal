@@ -1,7 +1,7 @@
 id=k20produalspeaker
 name=Redmi K20 Pro Dual Speaker Mod
-version=v2
-versionCode=2
+version=v3
+versionCode=3
 author=acervenky
 description=Earpiece acts as a secondary speaker
 minMagisk=1500
