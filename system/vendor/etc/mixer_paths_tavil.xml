@@ -554,15 +554,15 @@
     <path name="deep-buffer-playback speaker">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
 		<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="1" />
-		<ctl name="RX0 Digital Volume" value="90" />
-		<ctl name="RX7 Digital Volume" value="90" />
+	        <ctl name="SLIM_0_RX SampleRate" value="KHZ_96" />
+		<ctl name="RX0 Digital Volume" value="88" />
     </path>
 
     <path name="low-latency-playback speaker">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
 		<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="1" />
-		<ctl name="RX0 Digital Volume" value="90" />
-		<ctl name="RX7 Digital Volume" value="90" />
+		<ctl name="SLIM_0_RX SampleRate" value="KHZ_96" />
+		<ctl name="RX0 Digital Volume" value="88" />
     </path>
 
     <path name="audio-ull-playback speaker">
@@ -572,8 +572,8 @@
     <path name="compress-offload-playback speaker">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia4" value="1" />
 		<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="1" />
-		<ctl name="RX0 Digital Volume" value="90" />
-		<ctl name="RX7 Digital Volume" value="90" />
+		<ctl name="SLIM_0_RX SampleRate" value="KHZ_96" />
+		<ctl name="RX0 Digital Volume" value="88" />
     </path>
 
     <path name="compress-offload-playback2 speaker">
@@ -2280,14 +2280,6 @@
         <ctl name="IIR0 INP0 MUX" value="DEC7" />
     </path>
 
-	<path name="earsp">
-        <ctl name="SLIM RX0 MUX" value="AIF1_PB" />
-        <ctl name="SLIM_0_RX Channels" value="One" />
-        <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
-	    <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="EAR SPKR PA Gain" value="G_6_DB" />
-	    <ctl name="RX0 Digital Volume" value="90" />	
-    </path>
 	
     <path name="speaker">
         <ctl name="SLIM RX0 MUX" value="AIF1_PB" />
@@ -2308,7 +2300,6 @@
         <ctl name="SpkrRight VISENSE Switch" value="1" />
         <ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
         <ctl name="RX7 Digital Volume" value="90" />
-        <path name="earsp"/>
     </path>
 
     <path name="speaker-mono">
