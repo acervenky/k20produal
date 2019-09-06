@@ -2299,7 +2299,7 @@
         <ctl name="SpkrRight BOOST Switch" value="1" />
         <ctl name="SpkrRight VISENSE Switch" value="1" />
         <ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
-        <ctl name="RX7 Digital Volume" value="90" />
+        <ctl name="RX7 Digital Volume" value="88" />
     </path>
 
     <path name="speaker-mono">
@@ -2444,7 +2444,7 @@
         <ctl name="SpkrLeft BOOST Switch" value="1" />
         <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
         <ctl name="EAR SPKR PA Gain" value="G_6_DB" />
-		<ctl name="RX0 Digital Volume" value="90" />
+	<ctl name="RX0 Digital Volume" value="88" />
     </path>
 
     <path name="handset-qrd">
