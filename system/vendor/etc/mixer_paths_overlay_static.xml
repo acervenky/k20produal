@@ -17,10 +17,20 @@
     <ctl name="ADC3 Volume" value="8" />
     <ctl name="ADC4 Volume" value="8" />
     <ctl name="TFA Profile" value="speaker" />
-    <ctl name="QUAT_MI2S_RX Channels" value="Two" />
-    <ctl name="QUAT_MI2S_TX Channels" value="Two" />
-    <ctl name="QUATERNARY_MI2S_RX_VI_FB_MUX" value="ZERO" />
+    <ctl name="QUAT_MI2S_RX Channels" value="One" />
+    <ctl name="QUAT_MI2S_RX Format" value="S24_LE" />
     <ctl name="QUAT_MI2S_RX SampleRate" value="KHZ_48" />
+    <ctl name="QUATERNARY_MI2S_RX_VI_FB_MUX" value="ZERO" />
+    <ctl name="QUAT_MI2S_TX Channels" value="One" />
+    <ctl name="QUAT_MI2S_TX Format" value="S24_LE" />
+    <ctl name="QUAT_MI2S_TX SampleRate" value="KHZ_48" />
+	<ctl name="SLIM_0_RX Format" value="S24_LE" />
+	<ctl name="SLIM_0_RX SampleRate" value="KHZ_96" />
+	<ctl name="SLIM_0_TX Format" value="S24_LE" />
+	<ctl name="SLIM_0_TX SampleRate" value="KHZ_96" />
+	<ctl name="SLIM_0_RX Channels" value="One" />
+	<ctl name="SLIMBUS_0 Volume" value="1" />
+	<ctl name="SLIM_0_TX Channels" value="One" />
     <ctl name="External AMIC2 Mux" value="Dual_ADC" />
     <ctl name="COMP1 Switch" value="0" />
     <ctl name="COMP2 Switch" value="0" />
