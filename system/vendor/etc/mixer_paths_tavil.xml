@@ -1163,6 +1163,7 @@
 
     <path name="deep-buffer-playback headphones">
         <ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia1" value="1" />
+		<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia1" value="1" />
     </path>
 
     <path name="deep-buffer-playback headset">
@@ -1252,6 +1253,7 @@
 
     <path name="low-latency-playback headphones">
         <ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia5" value="1" />
+		<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="1" />
     </path>
 
     <path name="low-latency-playback headset">
@@ -1306,6 +1308,7 @@
 
     <path name="audio-ull-playback headphones">
         <ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia8" value="1" />
+		<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia8" value="1" />
     </path>
 
     <path name="audio-ull-playback headset">
@@ -1436,6 +1439,7 @@
 
     <path name="compress-offload-playback headphones">
         <ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia4" value="1" />
+		<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia4" value="1" />
     </path>
 
     <path name="compress-offload-playback headset">
